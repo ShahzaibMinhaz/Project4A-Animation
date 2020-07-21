@@ -1,0 +1,16 @@
+.background-clip {
+    display: flex;
+    position: relative;
+    width: 200vw;
+    overflow: hidden;
+}   
+
+.background-image-1,.background-image-2{
+    background-image: url('../seabackground.png');
+    width: 200%;
+    height: 100vh;
+    position: relative;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+}
